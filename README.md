@@ -26,6 +26,10 @@ Being an active iNaturalist user, I am passionate about exploring and mapping bi
 
 English, German, Serbian proficient, Hungarian native level.
 
+---
+
+BF2E 4759 74D3 88E0 E30C  9604 07E6 C064 3FD1 42C3
+
 `:wq`
 
 [webnb.dev]: https://webnb.dev
