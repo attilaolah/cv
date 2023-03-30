@@ -100,7 +100,7 @@ aside a:visited {
 
 aside li.icons {
   display: flex;
-  gap: var(--u);
+  gap: calc(var(--u) * 2);
 }
 
 aside li.icons a:not(:hover) {
