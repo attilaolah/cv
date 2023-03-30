@@ -1,0 +1,197 @@
+:root {
+  --u: 8px;                /* grid unit */
+  --h: calc(var(--u) / 2); /* half unit */
+  --q: calc(var(--h) / 2); /* quarter unit */
+
+  --a4w: 21cm;   /* ISO A4 width */
+  --a4h: 29.7cm; /* ISO A4 height */
+
+  /* Solarized palette. */
+  --sol-blue: #268bd2;
+  --sol-green: #859900;
+  --sol-magenta: #d33682;
+  --sol-base-01: #586e75;
+  --sol-base-03: #002b36;
+
+  /* Material Design surface. */
+  --md-sys-color-surface: #fffcf9;
+  --md-sys-color-on-surface: #1b1c1a;
+
+  /* Ideally the size should be: calc(var(--a4w) / 3 - var(--u) * 12);
+   * However, to avoid a blurry photo, provide the exact size explicitly. */
+  --photo-size: 168px;
+}
+
+html, body {
+  font-size: 13px;  /* non-standard, to make content fit neatly */
+  font-family: 'Inter', sans-serif;
+}
+
+::selection {
+  color: white;
+  background: var(--sol-magenta);
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  width: var(--a4w);
+  height: var(--a4h);
+
+  color: var(--sol-base-03);
+  background: var(--md-sys-color-surface);
+}
+
+aside, article {
+  display: flex;
+  flex-direction: column;
+  padding: calc(var(--u) * 6);
+  padding-bottom: 0;
+}
+
+aside {
+  grid-column: 1;
+
+  color: white;
+  background-color: var(--sol-base-03);
+}
+
+aside img.photo {
+  --border: var(--h);
+  width: var(--photo-size);
+  height: var(--photo-size);
+  border: var(--border) solid var(--sol-green);
+  border-radius: var(--photo-size);
+  box-sizing: content-box;
+  margin: calc(var(--u) * 6) calc(var(--border) * -1) 0;
+}
+
+h2 {
+  font-size: calc(var(--u) * 2);
+  border-bottom: var(--q) solid var(--sol-base-03);
+  padding-bottom: calc(var(--u) + var(--h) + var(--q));
+  letter-spacing: var(--q);
+  text-transform: uppercase;
+}
+
+h2 .material-symbols-outlined {
+  font-size: calc(var(--u) * 2.5);
+  line-height: 0;
+  position: relative;
+  left: var(--q);
+  top: var(--h);
+}
+
+aside h2 {
+  border-color: white;
+  margin-right: calc(var(--u) * -6);
+  margin-top: calc(var(--u) * 6);
+  font-weight: 400;
+}
+
+aside a,
+aside a:hover,
+aside a:active,
+aside a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+aside ul {
+  padding: 0;
+  margin: var(--u) 0 0;
+}
+
+aside li {
+  list-style-type: none;
+  margin: 0 0 var(--u) calc(var(--u) * 2);
+}
+
+aside code {
+  color: var(--sol-base-01);
+  margin-right: calc(var(--u) * -6);
+}
+
+article {
+  grid-column: 2;
+}
+
+header {
+  color: white;
+  background-color: var(--sol-green);
+  text-transform: uppercase;
+
+  display: flex;
+  align-items: center;
+  /* We could align these in a nice grid, but for now this works well enough. */
+  min-height: var(--photo-size);
+  margin: calc(var(--u) * 6) calc(var(--u) * -6) calc(var(--u) * 3);
+  padding: 0 calc(var(--u) * 6);
+}
+
+header h1 {
+  margin: 0 0 var(--u);
+  font-size: calc(var(--u) * (4 - 1/4));
+  letter-spacing: var(--q);
+}
+
+header p {
+  margin: 0;
+  letter-spacing: calc(var(--u) / 4);
+  font-size: 16px;
+}
+
+article h1,
+article h2,
+article h3 {
+  font-weight: 500;
+}
+
+article h3 {
+  font-size: inherit;
+  margin: var(--u) 0;
+}
+
+article > p {
+  margin: 0 0 calc(var(--u) * 2);
+  line-height: calc(var(--u) * (2 + 1/4));
+}
+
+article > p + p {
+  margin-top: calc(var(--u) * -1);
+}
+
+article p em {
+  font-weight: 600;
+  font-style: initial;
+}
+
+article span {
+  white-space: nowrap;
+}
+
+article code {
+  color: var(--sol-base-01);
+}
+
+a, a:active, a:visited {
+  color: var(--sol-green);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--sol-blue);
+  text-decoration: underline;
+}
+
+@media not print {
+  body {
+    background-color: var(--md-sys-color-on-surface);
+    padding: calc(var(--u)*3);
+
+  }
+  main {
+    background: white;
+    margin: auto;
+  }
+}
