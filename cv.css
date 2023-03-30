@@ -98,6 +98,24 @@ aside a:visited {
   text-decoration: none;
 }
 
+aside li.icons {
+  display: flex;
+  gap: var(--u);
+}
+
+aside li.icons a:not(:hover) {
+  opacity: .5;
+}
+
+aside li.icons a[href^="https://github.com/"] + a[href^="https://inaturalist.org/"] {
+  /* Some carefully adjusted kerning between the round and bird-shaped icons. */
+  margin-left: -2px;
+}
+
+aside svg path {
+  fill: var(--sol-base-3);
+}
+
 aside ul {
   padding: 0;
   margin: var(--u) 0 0;
