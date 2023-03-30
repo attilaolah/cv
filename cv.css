@@ -12,6 +12,7 @@
   --sol-magenta: #d33682;
   --sol-base-01: #586e75;
   --sol-base-03: #002b36;
+  --sol-base-3: #fdf6e3;
 
   /* Material Design surface. */
   --md-sys-color-surface: #fffcf9;
@@ -52,7 +53,7 @@ aside, article {
 aside {
   grid-column: 1;
 
-  color: white;
+  color: var(--sol-base-3);
   background-color: var(--sol-base-03);
 }
 
@@ -83,7 +84,7 @@ h2 .material-symbols-outlined {
 }
 
 aside h2 {
-  border-color: white;
+  border-color: var(--sol-base-3);
   margin-right: calc(var(--u) * -6);
   margin-top: calc(var(--u) * 6);
   font-weight: 400;
@@ -93,7 +94,7 @@ aside a,
 aside a:hover,
 aside a:active,
 aside a:visited {
-  color: white;
+  color: var(--sol-base-3);
   text-decoration: none;
 }
 
