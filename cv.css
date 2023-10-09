@@ -48,6 +48,7 @@ aside, article {
   flex-direction: column;
   padding: calc(var(--u) * 6);
   padding-bottom: 0;
+  grid-row: 1;
 }
 
 aside {
