@@ -1,6 +1,8 @@
 # Attila Oláh
 
-> [attilaolah@gmail.com](mailto:attilaolah+cv@gmail.com) / [+41 79 247 25 10](tel:+41792472510) / Zürich
+> [attila@dorn.haus](mailto:attila+cv@dorn.haus) / [+41 79 247 25 10](tel:+41792472510) / Zürich
+
+## **TI SRE** @ Namespace | 2024
 
 ## **TI SRE** @ Google | 2015–2023
 
