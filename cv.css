@@ -129,6 +129,19 @@ aside li {
   margin: 0 0 var(--u) calc(var(--u) * 2);
 }
 
+aside ul.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--h);
+}
+
+aside ul.tags li {
+  margin: 0;
+  padding: var(--q) var(--h);
+  border: 1px solid var(--sol-base-01);
+  border-radius: var(--q);
+}
+
 aside code {
   color: var(--sol-base-01);
   margin-right: calc(var(--u) * -6);
