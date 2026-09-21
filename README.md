@@ -14,7 +14,7 @@ As a back-end or full-stack engineer I worked at several early-stage startups, u
 
 ## **OSS Contributor** | [github.com/attilaolah] | 2010–
 
-Currently focusing on build systems and compiler toolchains (Bazel, Emscripten, etc.) and developing fuzzers for open-source libraries. Example projects: LS-Sec reverse-engineering toolkit, taxonomy database utilities. _Languages: Rust, Go, TypeScript, etc._
+Nixpkgs contributor, package maintainer. Currently focusing on AI integration and security tooling, build systems and compiler toolchains (Bazel, Emscripten, etc.). Example projects: LS-Sec reverse-engineering toolkit, taxonomy database utilities. _Languages: Rust, Go, TypeScript, etc._
 
 ## **Co-Founder** @ Ash Foundation | 2017–
 
