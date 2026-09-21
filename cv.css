@@ -67,7 +67,7 @@ aside img.photo {
   border: var(--border) solid var(--sol-green);
   border-radius: var(--photo-size);
   box-sizing: content-box;
-  margin: calc(var(--u) * 6) calc(var(--border) * -1) 0;
+  margin: calc(var(--u) * 6 - var(--border)) calc(var(--border) * -1) 0;
 }
 
 h2 {
