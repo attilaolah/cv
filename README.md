@@ -22,7 +22,7 @@ As a founding member, I successfully organised several environmental protection 
 
 ### Personal Interests | [inaturalist.org/people/attilaolah]
 
-Being an active iNaturalist user, I am passionate about exploring and mapping biodiversity. I enjoy contributing to public datasets like WikiData, OpenStreetMap, etc.
+Building a bare-metal cluster from recycled hardware. TPM-backed PKI, encryption in transit and at rest. Active iNaturalist member, exploring wildlife and mapping biodiversity.
 
 ### Languages
 
