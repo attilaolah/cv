@@ -2,7 +2,13 @@
 
 > [attila@dorn.haus](mailto:attila+cv@dorn.haus) / [+41 79 247 25 10](tel:+41792472510) / Zürich
 
+## **DevSecOps** @ Netstal Maschinen | 2024–present
+
+Hardening on-prem Kubernetes clusters and modernising legacy systems. Built internal AI infrastructure with LLM cost controls. Focus areas: LLM/MCP infra, supply-chain security, observability.
+
 ## **TI SRE** @ Namespace | 2024
+
+Designed fleet-management tooling and implemented security hardening across transport and application layers. Focus areas: K3s, HCP Vault + Terraform, TLS, Ansible, Go.
 
 ## **Tech Infra SRE** @ Google | 2015–2023
 
@@ -14,7 +20,7 @@ As a backend or full-stack engineer, I worked at several early-stage startups, o
 
 ## **OSS Contributor** | [github.com/attilaolah] | 2010–
 
-Nixpkgs contributor, focusing on AI integration and security tooling, build systems and compiler toolchains (Bazel, Emscripten, etc.). Example projects: LS-Sec reverse-engineering toolkit, taxonomy database utilities. _Languages: Rust, Go, TypeScript, etc._
+[ACMEv2 EAB][acme-eab] writer, nixpkgs [contributions][nixpkgs contributions], macOS [DVP+Compose][programmer-dvorak-compose] keyboard layout, WebAssembly [library ports][wasm-library-ports], [LS-Sec][ls-sec] toolkit. _Languages: Rust, Go, TypeScript, etc._
 
 ## **Co-Founder** @ Ash Foundation | 2017–
 
@@ -22,7 +28,7 @@ As a founding member, I successfully organised several environmental protection 
 
 ### Personal Interests | [inaturalist.org/people/attilaolah]
 
-Building a bare-metal cluster from recycled hardware. TPM-backed PKI, encryption in transit and at rest. Active iNaturalist member, exploring wildlife and mapping biodiversity.
+Building a bare-metal cluster. TPM-backed PKI, encryption in transit and at rest. Active iNaturalist member, mapping local biodiversity.
 
 ### Languages
 
@@ -37,3 +43,8 @@ BF2E 4759 74D3 88E0 E30C
 
 [github.com/attilaolah]: https://github.com/attilaolah
 [inaturalist.org/people/attilaolah]: https://inaturalist.org/people/attilaolah
+[nixpkgs contributions]: https://github.com/NixOS/nixpkgs/pulls?q=author:attilaolah
+[acme-eab]: https://github.com/attilaolah/acme-eab
+[programmer-dvorak-compose]: https://github.com/attilaolah/programmer-dvorak-compose
+[wasm-library-ports]: https://github.com/attilaolah/wasm#libraries
+[ls-sec]: https://github.com/attilaolah/birdcam
