@@ -8,13 +8,13 @@
 
 In my roles on three different technical infrastructure teams, I supported large-scale systems with a focus on reliability and security. Apart from incident management, I worked on continuous deployment, release engineering, monitoring and alerting systems. I took an active role in mentoring, interviewing and intern hosting. _Languages: C++, Go._
 
-## **SWE + DevOps** @ Various Tech Startups | 2009–2015
+## **SWE + DevOps** @ various tech startups | 2009–2015
 
-As a back-end or full-stack engineer I worked at several early-stage startups, usually as one of the first few employees. I was designing systems from scratch, while gaining experience in BLE technologies, container orchestration, web frameworks and data streaming stacks. _Languages: Go, Python, JavaScript._
+As a backend or full-stack engineer, I worked at several early-stage startups, often as one of the first employees. I designed systems from scratch across BLE, container orchestration, web frameworks, and data streaming. _Languages: Go, Python, JavaScript._
 
 ## **OSS Contributor** | [github.com/attilaolah] | 2010–
 
-Nixpkgs contributor, package maintainer. Currently focusing on AI integration and security tooling, build systems and compiler toolchains (Bazel, Emscripten, etc.). Example projects: LS-Sec reverse-engineering toolkit, taxonomy database utilities. _Languages: Rust, Go, TypeScript, etc._
+Nixpkgs contributor, focusing on AI integration and security tooling, build systems and compiler toolchains (Bazel, Emscripten, etc.). Example projects: LS-Sec reverse-engineering toolkit, taxonomy database utilities. _Languages: Rust, Go, TypeScript, etc._
 
 ## **Co-Founder** @ Ash Foundation | 2017–
 
