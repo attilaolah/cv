@@ -30,7 +30,8 @@ English, German, Serbian proficient, Hungarian native level.
 
 ---
 
-BF2E 4759 74D3 88E0 E30C  9604 07E6 C064 3FD1 42C3
+BF2E 4759 74D3 88E0 E30C
+9604 07E6 C064 3FD1 42C3
 
 `:wq`
 
