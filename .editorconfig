@@ -1,0 +1,13 @@
+# EditorConfig: https://editorconfig.org
+[*]
+charset = utf-8
+
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+indent_size = 2
+rulers = [120]
+max_line_length = 120
+quote_type = double
+indent_style = space
