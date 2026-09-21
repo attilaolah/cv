@@ -73,7 +73,7 @@ aside img.photo {
 h2 {
   font-size: calc(var(--u) * 2);
   border-bottom: var(--q) solid var(--sol-base-03);
-  padding-bottom: calc(var(--u) + var(--h) + var(--q));
+  padding-bottom: var(--u);
   letter-spacing: var(--q);
   text-transform: uppercase;
 }
@@ -84,12 +84,15 @@ h2 .material-symbols-outlined {
   position: relative;
   left: var(--q);
   top: var(--h);
+
+  /* Prevent the layout-reflow to move content around too much when the icons load. */
+  max-width: 0;
 }
 
 aside h2 {
   border-color: var(--sol-base-3);
   margin-right: calc(var(--u) * -6);
-  margin-top: calc(var(--u) * 6);
+  margin-top: 2rem;
   font-weight: 400;
 }
 
@@ -106,8 +109,12 @@ aside li.icons {
   gap: calc(var(--u) * 2);
 }
 
-aside li.icons a:not(:hover) {
+aside li.icons a {
   opacity: 0.5;
+}
+
+aside li.icons a:not(:hover) {
+  opacity: 0.25;
 }
 
 aside li.icons a[href^="https://github.com/"] + a[href^="https://inaturalist.org/"] {
@@ -121,7 +128,7 @@ aside svg path {
 
 aside ul {
   padding: 0;
-  margin: var(--u) 0 0;
+  margin: var(--u) 0 4rem;
 }
 
 aside li {
@@ -140,6 +147,7 @@ aside ul.tags li {
   padding: var(--q) var(--h);
   border: 1px solid var(--sol-base-01);
   border-radius: var(--q);
+  background: rgba(255, 255, 255, 0.05);
 }
 
 aside ul.languages .level {
