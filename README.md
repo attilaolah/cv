@@ -4,13 +4,13 @@
 
 ## **TI SRE** @ Namespace | 2024
 
-## **TI SRE** @ Google | 2015–2023
+## **Tech Infra SRE** @ Google | 2015–2023
 
-In my roles on three different technical infrastructure teams, I supported large-scale systems with a focus on reliability and security. Apart from incident management, I worked on continuous deployment, release engineering, monitoring and alerting systems. I took an active role in mentoring, interviewing and intern hosting. _Languages: C++, Go._
+Improved reliability and security of large-scale GCP systems across three technical infrastructure teams. Led projects to improve Pub/Sub observability and safely deliver monitoring and alerting configuration. Mentored engineers and hosted interns. Focus areas: GCP, security, incident management, observability, CI/CD, release engineering, capacity planning. _Languages: C++, Go._
 
 ## **SWE + DevOps** @ various tech startups | 2009–2015
 
-As a backend or full-stack engineer, I worked at several early-stage startups, often as one of the first employees. I designed systems from scratch across BLE, container orchestration, web frameworks, and data streaming. _Languages: Go, Python, JavaScript._
+As a backend or full-stack engineer, I worked at several early-stage startups, often as one of the first employees. I designed systems from scratch across streaming pipelines, BLE, and containers. _Languages: Go, Python, JavaScript._
 
 ## **OSS Contributor** | [github.com/attilaolah] | 2010–
 
