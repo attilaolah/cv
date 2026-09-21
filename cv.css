@@ -126,7 +126,7 @@ aside ul {
 
 aside li {
   list-style-type: none;
-  margin: 0 0 var(--u) calc(var(--u) * 2);
+  margin: 0 0 var(--u);
 }
 
 aside ul.tags {
