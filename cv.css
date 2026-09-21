@@ -1,9 +1,9 @@
 :root {
-  --u: 8px;                /* grid unit */
+  --u: 8px; /* grid unit */
   --h: calc(var(--u) / 2); /* half unit */
   --q: calc(var(--h) / 2); /* quarter unit */
 
-  --a4w: 21cm;   /* ISO A4 width */
+  --a4w: 21cm; /* ISO A4 width */
   --a4h: 29.7cm; /* ISO A4 height */
 
   /* Solarized palette. */
@@ -23,9 +23,10 @@
   --photo-size: 168px;
 }
 
-html, body {
-  font-size: 13px;  /* non-standard, to make content fit neatly */
-  font-family: 'Inter', sans-serif;
+html,
+body {
+  font-size: 13px; /* non-standard, to make content fit neatly */
+  font-family: "Inter", sans-serif;
 }
 
 ::selection {
@@ -43,7 +44,8 @@ main {
   background: var(--md-sys-color-surface);
 }
 
-aside, article {
+aside,
+article {
   display: flex;
   flex-direction: column;
   padding: calc(var(--u) * 6);
@@ -105,7 +107,7 @@ aside li.icons {
 }
 
 aside li.icons a:not(:hover) {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 aside li.icons a[href^="https://github.com/"] + a[href^="https://inaturalist.org/"] {
@@ -151,7 +153,7 @@ header {
 
 header h1 {
   margin: 0 0 var(--u);
-  font-size: calc(var(--u) * (4 - 1/4));
+  font-size: calc(var(--u) * (4 - 1 / 4));
   letter-spacing: var(--q);
 }
 
@@ -174,7 +176,7 @@ article h3 {
 
 article > p {
   margin: 0 0 calc(var(--u) * 2);
-  line-height: calc(var(--u) * (2 + 1/4));
+  line-height: calc(var(--u) * (2 + 1 / 4));
 }
 
 article > p + p {
@@ -194,7 +196,9 @@ article code {
   color: var(--sol-base-01);
 }
 
-a, a:active, a:visited {
+a,
+a:active,
+a:visited {
   color: var(--sol-green);
   text-decoration: none;
 }
@@ -207,8 +211,7 @@ a:hover {
 @media not print {
   body {
     background-color: var(--md-sys-color-on-surface);
-    padding: calc(var(--u)*3);
-
+    padding: calc(var(--u) * 3);
   }
   main {
     background: white;
