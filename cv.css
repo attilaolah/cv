@@ -146,7 +146,7 @@ aside ul.languages .level {
   font-weight: 300;
   font-variant-numeric: tabular-nums;
   letter-spacing: var(--q);
-  opacity: 0.7;
+  opacity: 0.5;
 }
 
 aside ul.languages li {
@@ -160,8 +160,11 @@ aside ul.languages .separator {
 }
 
 aside code {
-  color: var(--sol-base-01);
+  color: var(--sol-base-3);
   margin-right: calc(var(--u) * -6);
+  font-weight: 300;
+  font-variant-numeric: tabular-nums;
+  opacity: 0.5;
 }
 
 article {
